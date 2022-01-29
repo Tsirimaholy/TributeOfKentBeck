@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e9e5e5;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#head {
+  line-height: 2.4em;
+  color: #918e8e;
+  text-align: center;
+  background: #efefef;
+  padding: 1em;
+}
+
+blockquote {
+  font-family: "Georama", sans-serif;
+}
+/* figure start*/
+
+#img-div {
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 2em;
+  box-shadow: 8px 5px 15px 0px grey;
+  padding: 20px;
+  width: fit-content;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#image {
+  align-items: center;
+  justify-content: center;
+  width: 100;
+}
+#img-caption {
+  margin: 1em;
+  font-weight: bolder;
+  font-size: large;
+}
+/* section start */
+section {
+  margin: 6em;
+  margin-top: 3em;
+}
+#tribute-info {
+  text-align: center;
+  font-weight: bold;
+  color: #918e8e;
+}
+#tribute-link {
+  text-decoration: none;
+  background-color: #918e8e;
+  color: rgb(226, 221, 221);
+  padding-left: 1ch;
+  padding-right: 1ch;
+}
+
+/* timeline years*/
+.story {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+ul li {
+  margin-bottom: 2ch;
+}
+
+.story-flex-container {
+  display: flex;
+}
+
+.year {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.description {
+  color: rgb(49, 49, 49);
+  margin-left: 1em;
+}
+
+#twentytwo:before {
+  content: "*";
+  color: rgb(35, 35, 40);
+}
+#twentytwo {
+  font-weight: bold;
+}
+
+/* phone margin */
+@media only screen and (max-width: 711px) {
+  section {
+    margin: 1em;
+    margin-top: 3em;
+  }
+}
